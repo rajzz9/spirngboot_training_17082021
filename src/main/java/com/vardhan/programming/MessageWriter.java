@@ -5,7 +5,6 @@ public class MessageWriter {
     private IMessageProducer iMessageProducer;
 
     public void writeMessage(String message){
-        ///iMessageProducer = new HTMLMessageProducer();
         System.out.println(iMessageProducer.formatMessage(message));
     }
 
